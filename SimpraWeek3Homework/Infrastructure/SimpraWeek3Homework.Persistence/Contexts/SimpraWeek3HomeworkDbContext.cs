@@ -11,7 +11,7 @@ namespace SimpraWeek3Homework.Persistence.Contexts
     public class SimpraWeek3HomeworkDbContext : DbContext
     {
         public SimpraWeek3HomeworkDbContext(DbContextOptions options) : base(options) { }
-        public DbSet<Category> Companies { get; set; }
+        public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         
     }
