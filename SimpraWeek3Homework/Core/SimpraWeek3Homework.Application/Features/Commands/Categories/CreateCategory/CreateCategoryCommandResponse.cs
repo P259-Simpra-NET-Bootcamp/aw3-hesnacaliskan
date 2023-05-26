@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpraWeek3Homework.Application.Features.Commands.Categories.CreateCategory
 {
-    internal class CreateCategoryCommandResponse
+    public class CreateCategoryCommandResponse
     {
     }
 }

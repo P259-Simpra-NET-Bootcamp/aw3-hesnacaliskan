@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpraWeek3Homework.Application.Features.Commands.Products.UpdateProduct
 {
-    internal class UpdateProductCommandResponse
+    public class UpdateProductCommandResponse
     {
     }
 }

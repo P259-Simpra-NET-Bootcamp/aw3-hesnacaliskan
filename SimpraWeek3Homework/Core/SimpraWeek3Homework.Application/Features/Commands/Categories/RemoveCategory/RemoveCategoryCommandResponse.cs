@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpraWeek3Homework.Application.Features.Commands.Categories.DeleteCategory
+namespace SimpraWeek3Homework.Application.Features.Commands.Categories.RemoveCategory
 {
-    internal class DeleteCategoryCommandRequest
+    public class RemoveCategoryCommandResponse
     {
     }
 }
