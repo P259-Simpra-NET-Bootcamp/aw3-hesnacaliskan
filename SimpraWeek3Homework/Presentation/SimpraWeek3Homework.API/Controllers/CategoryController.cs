@@ -14,14 +14,12 @@ namespace SimpraWeek3Homework.API.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        readonly private ICategoryReadRepository _categoryReadRepository;
-        readonly private ICategoryWriteRepository _categoryWriteRepository;
+
         readonly IMediator _mediator;
 
-        public CategoryController(ICategoryReadRepository categoryReadRepository, ICategoryWriteRepository categoryWriteRepository, IMediator mediator)
+        public CategoryController(IMediator mediator)
         {
-            _categoryReadRepository = categoryReadRepository;
-            _categoryWriteRepository = categoryWriteRepository;
+
             this._mediator = mediator;
         }
 

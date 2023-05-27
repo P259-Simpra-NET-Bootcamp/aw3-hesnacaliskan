@@ -14,14 +14,12 @@ namespace SimpraWeek3Homework.API.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        readonly private IProductReadRepository _productReadRepository;
-        readonly private IProductWriteRepository _productWriteRepository;
+
         readonly IMediator _mediator;
 
-        public ProductController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, IMediator mediator)
+        public ProductController(IMediator mediator)
         {
-            _productReadRepository = productReadRepository;
-            _productWriteRepository = productWriteRepository;
+
             this._mediator = mediator;
         }
 
